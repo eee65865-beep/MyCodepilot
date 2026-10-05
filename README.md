@@ -36,7 +36,7 @@ CodePilot 是一个基于 LangChain 和 DeepSeek 实现的智能代码审查 Age
 
 项目通过 LangChain `create_agent` 管理模型与工具的循环。DeepSeek 可以根据请求决定调用文件读取或代码运行工具，接收真实执行结果后继续分析。页面展示工具名称、输入摘要、成功或失败状态和结果摘要，不读取或展示模型隐藏推理。
 
-这是课程作业项目，重点展示可理解的 Agent 工作流程和模块职责。实现及验收证据见 [PROJECT_AUDIT.md](PROJECT_AUDIT.md)，设计说明见 [DESIGN.md](DESIGN.md)。
+设计说明见 [DESIGN.md](DESIGN.md)。
 
 ### 项目目标
 
