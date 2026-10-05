@@ -1,0 +1,11 @@
+langchain==1.4.2
+langchain-core==1.6.5
+langchain-deepseek==1.1.1
+streamlit==1.64.0
+python-dotenv==1.2.3
+pydantic==2.13.5
+pytest==9.1.1
+# 项目直接导入的框架状态、SDK 异常和测试 HTTP 传输依赖。
+langgraph==1.2.12
+openai==3.19.2
+httpx==0.28.1
